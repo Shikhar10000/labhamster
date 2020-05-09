@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.contrib.auth.models import User
-from customfields import DayModelField, DayConversion
+from datafields import DayModelField, DayConversion
 from djmoney.models.fields import MoneyField
 import tools as T
 
